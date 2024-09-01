@@ -1,0 +1,144 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+.showcase
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    color: white;
+    position: relative;
+}
+.video-container{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+}
+.video-content
+{
+z-index: 1;
+}
+.video-content a{
+    background-color: aqua;
+    color: rgb(15, 1, 1);
+    line-height: 1.5;
+    padding: 10px;
+    border: 1px solid rgb(20, 230, 83);
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 50px;
+
+    
+    
+}
+.video-content a:hover{
+    color: blue;
+}
+#madara{
+    margin-top: 500px;
+    margin-left: 30px;
+}
+#madara h1{
+    color: rgb(240, 6, 6);
+    text size: 25px;
+
+}
+#madara p{
+    text-indent: 50px;
+    letter-spacing: 1px;
+    font-style: italic;
+    word-spacing: 1.5px;
+    align-items: flex-start;
+}
+
+
+.foot{
+    text-align: center;
+    
+}
+#itachi p{
+    text-indent: 50px;
+    letter-spacing: 1px;
+    font-style: italic;
+    word-spacing: 1.5px;
+    margin-left: 30px;
+}
+#itachi h1{
+    color: rgb(240, 6, 6);
+    text size: 25px;
+    
+}
+    
+#OBITO p{
+    text-indent: 50px;
+    letter-spacing: 1px;
+    font-style: italic;
+    word-spacing: 1.5px;
+    margin-left: 30px;
+}
+#OBITO h1{
+    color: rgb(240, 6, 6);
+    text size: 25px;
+    
+    
+}
+
+
+#SASUKE h1{
+    color: rgb(240, 6, 6);
+    text size: 25px;
+    
+}
+
+
+#madara {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+#madara img {
+    max-width: 300px; 
+    height: auto;
+}
+
+#madara p {
+        max-width: 700px; }
+        #itachi {
+            display: flex;
+            align-items: flex-start; 
+        }
+        
+        .itachi-img {
+            margin-left: 20px; 
+            max-width: 300px; 
+            height: auto; 
+        }
+
+
+        #OBITO {
+            display: flex;
+            align-items: flex-start;
+        }
+        
+        #OBITO img {
+            margin-right: 20px;
+        }
+        
+        #OBITO p {
+            max-width: 600px;
+        }
+#sasuke {
+    display: flex;
+    align-items: flex-start;
+}
+#sasuke img{
+    margin-right: 10px;
+}
+#sasuke p{
+    align-items: center;
+}
